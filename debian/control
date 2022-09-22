@@ -1,0 +1,21 @@
+Source: ipheth
+Section: net
+Priority: extra
+Maintainer: Paul McEnery <pmcenery@gmail.com>
+Build-Depends: debhelper (>= 9), libimobiledevice-dev
+Standards-Version: 4.0.0
+Vcs-Git: https://github.com/pmcenery/ipheth-debian.git
+Vcs-Browser: https://github.com/pmcenery/ipheth-debian
+Homepage: http://giagio.com/wiki/moin.cgi/iPhoneEthernetDriver
+
+Package: ipheth-utils
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: USB tethering driver support utilities for the iPhone
+ Internet tethering driver for the iPhone which allows Linux systems to
+ make use of the phone's internet connection using a USB cable. Unlike
+ other solutions out there, you don't need to jailbreak your phone or
+ install third-party proxy applications.
+ .
+ This package provides the support utilities required to automatically
+ set up the tethered connection.

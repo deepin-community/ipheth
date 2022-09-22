@@ -1,0 +1,35 @@
+ipheth (1.0-5) unstable; urgency=low
+
+  * Remove references to obsolete ipeth-dkms package (Closes: #711684, #872322)
+  * Improved documentation (Closes: #766141)
+  * Build against latest usbmuxd (Closes: #728050)
+  * Update udevadm path (Closes: #852563)
+  * Bump standards-version to latest
+
+ -- Paul McEnery <pmcenery@gmail.com>  Tue, 05 Sep 2017 13:36:17 +0100
+
+ipheth (1.0-4) unstable; urgency=low
+
+  * Remove references to obsolete ipheth-dkms package (Closes: #711684)
+  * Bump standards-version to latest
+  * Patch ipheth-pair to latest git version (Closes: #728050)
+
+ -- Paul McEnery <pmcenery@gmail.com>  Mon, 28 Oct 2013 11:38:14 +0000
+
+ipheth (1.0-3) unstable; urgency=low
+
+  * Add statement regarding Debian kernel version in NEWS.Debian
+
+ -- Paul McEnery <pmcenery@gmail.com>  Tue, 28 Sep 2010 23:02:47 +0100
+
+ipheth (1.0-2) unstable; urgency=low
+
+  * Removed the ipheth-dkms package (Closes: #597157)
+
+ -- Paul McEnery <pmcenery@gmail.com>  Thu, 23 Sep 2010 15:01:13 +0100
+
+ipheth (1.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #566313)
+
+ -- Paul McEnery <pmcenery@gmail.com>  Sun, 07 Feb 2010 21:13:09 +0000
